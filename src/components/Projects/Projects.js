@@ -9,6 +9,7 @@ import { faArrowUpRightFromSquare, faSpinner } from '@fortawesome/free-solid-svg
 import simplebudgetPreview from '../../videos/simplebudget.mp4';
 import sharenotesPreview from '../../videos/sharenotes.mp4';
 import walkbuddyPreview from '../../videos/walkbuddy.mp4';
+import portfolioPreview from '../../videos/portfolio.mp4';
 
 //Styles
 import './projects.css';
@@ -62,7 +63,7 @@ const Projects = () => {
 
       <div className='pr-card'>
         <div className='pr-card__demo'>
-          <video src='#' controls autoplay loop>Video</video>
+          <video src={portfolioPreview} controls autoplay loop></video>
         </div>
         <div className='pr-card__text-container'>
           <div className='pr-card__title'>Portfolio</div>
@@ -72,7 +73,7 @@ const Projects = () => {
             <div>Vanilla CSS</div>
           </div>
           <div className='pr-card__links'>
-            <a href='#' target="_blank" rel="noreferrer">Code <FontAwesomeIcon icon={faGithub} /></a>
+            <a href='https://github.com/tbarashkova/portfolio' target="_blank" rel="noreferrer">Code <FontAwesomeIcon icon={faGithub} /></a>
             <a href='#home' target="_blank" rel="noreferrer">Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
           </div>
         </div>
