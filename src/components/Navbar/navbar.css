@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 2rem 6rem;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: var(--_sizeMd);
+
+  background: hsl(var(--muted));
+  box-shadow: 0 0 10px hsl(var(--txt) / .1);
+}
+
+.navbar-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-links__container li,
+.navbar-menu__container li {
+  text-transform: capitalize;
+  list-style-type: none; 
+
+  margin: 0 1rem;
+}
+
+.navbar-links__logo:hover,
+.navbar-links__container li:hover,
+.navbar-menu__container li:hover {
+  color: hsl(var(--accent));
+  cursor: pointer;
+}
+
+.navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.navbar-menu svg {
+  cursor: pointer;
+}
+
+.navbar-menu__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background-color: hsl(var(--muted));
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 1em;
+}
+
+.navbar-menu__container li {
+  margin: 1rem 0;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar-links__container {
+      display: none;
+  }
+
+  .navbar-menu {
+      display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+      padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+      padding: 2rem;
+  }
+
+  .navbar-menu__container {
+      top: 20px;
+  }
+}

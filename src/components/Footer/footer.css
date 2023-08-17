@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  padding: 1em 3em;
+  box-shadow: 0 0 10px hsl(var(--txt) / .1);
+  background-color: hsl(var(--muted));
+  font-size: calc(var(--_sizeMd) * 2);
+}
+
+.footer-icons {
+  width: 100%;
+  display: flex;
+  gap: .5em;
+}
+
+.footer-icons a {
+  color: hsl(var(--txt));
+}
+
+.footer-icons a:hover {
+  color: hsl(var(--accent));
+  cursor: pointer;
+}
+
+.footer-icons a > svg {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-icons {
+    justify-content: space-between;
+  }
+}
