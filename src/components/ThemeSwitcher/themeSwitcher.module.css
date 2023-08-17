@@ -48,6 +48,7 @@ btn svg {
 }
 
 .picker {
+  pointer-events: all;
   appearance: none;
   -webkit-appearance: none;
   outline: none;
@@ -76,6 +77,7 @@ btn svg {
 
 .picker::-webkit-slider-thumb {
   -webkit-appearance: none;
+  pointer-events: all;
   appearance: none;
   height: calc(var(--wrapperSize) * 0.35);
   width: calc(var(--wrapperSize) * 0.35);
