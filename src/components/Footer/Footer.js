@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <footer>
       <div className='footer-icons'>
-        <a href='https://github.com/tbarashkova' target='_blank'><FontAwesomeIcon icon={faGithub} /></a>
-        <a href='https://www.linkedin.com/in/tetiana-barashkova/' target='_blank'><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href='https://github.com/tbarashkova' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+        <a href='https://www.linkedin.com/in/tetiana-barashkova/' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
       </div>
     </footer>
   );

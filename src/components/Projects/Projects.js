@@ -55,8 +55,8 @@ const Projects = () => {
             <div>MySQL</div>
           </div>
           <div className='pr-card__links'>
-            <a href='https://github.com/tbarashkova/sharenotes/' target="_blank" rel="noreferrer">Code <FontAwesomeIcon icon={faGithub} /></a>
-            <a href='http://185.69.154.128/' target="_blank" rel="noreferrer">Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+            <a href='https://github.com/tbarashkova/sharenotes/' target="_blank" rel="noopener noreferrer">Code <FontAwesomeIcon icon={faGithub} /></a>
+            <a href='http://185.69.154.128/' target="_blank" rel="noopener noreferrer">Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
           </div>
         </div>
       </div>
@@ -73,8 +73,8 @@ const Projects = () => {
             <div>Vanilla CSS</div>
           </div>
           <div className='pr-card__links'>
-            <a href='https://github.com/tbarashkova/portfolio' target="_blank" rel="noreferrer">Code <FontAwesomeIcon icon={faGithub} /></a>
-            <a href='#home' target="_blank" rel="noreferrer">Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
+            <a href='https://github.com/tbarashkova/portfolio' target="_blank" rel="noopener noreferrer">Code <FontAwesomeIcon icon={faGithub} /></a>
+            <a href='#home' target="_blank" rel="noopener noreferrer">Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></a>
           </div>
         </div>
       </div>

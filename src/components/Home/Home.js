@@ -17,8 +17,8 @@ const Home = () => {
           <h1 className='home-txt__title'>Front-end (React) Developer</h1>
           <p className='home-txt__description'>Hello there, I'm <span>Tetiana Barashkova</span>, a passionate Front-end (React) Developer ready to bring creativity and functionality to life through code.</p>
           <div className='home-txt__icons'>
-            <a href='https://github.com/tbarashkova' target='_blank'><FontAwesomeIcon icon={faGithub} /></a>
-            <a href='https://www.linkedin.com/in/tetiana-barashkova/' target='_blank'><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href='https://github.com/tbarashkova' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
+            <a href='https://www.linkedin.com/in/tetiana-barashkova/' target='_blank' rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>
         </div>
         <div className="home-image__container">
