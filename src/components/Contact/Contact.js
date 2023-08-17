@@ -27,7 +27,7 @@ const Contact = () => {
           <span className='contact-icons'><FontAwesomeIcon icon={faLinkedin} /></span>
           <div className='contact-text'>
             <p>LinkedIn</p>
-            <a href='https://www.linkedin.com/in/tetiana-barashkova/'>tetiana.barashkova</a>
+            <a href='https://www.linkedin.com/in/tetiana-barashkova/' target="_blank" rel="noopener noreferrer">tetiana.barashkova</a>
           </div>
         </div>
 

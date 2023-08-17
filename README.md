@@ -19,8 +19,8 @@ A showcase of my projects and skills. Navigate through various projects, and exp
 
 ## Live Demo
 
-Check out the live demo [here](#).
+Check out the live demo [here](https://portfolitb.netlify.app/).
 
 ## Preview
 
-![the whole website](public/preview/portfolio1.png)
+![The whole website](public/preview/portfolio1.png)
