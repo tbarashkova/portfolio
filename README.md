@@ -10,7 +10,7 @@ A showcase of my projects and skills. Navigate through various projects, and exp
 
 - **Theme switching**: dark or light mode.
 
-- **Color customization**: pick a color palete you prefer.
+- **Color customization**: pick a color palette you prefer.
 
 ## Technologies Used
 
